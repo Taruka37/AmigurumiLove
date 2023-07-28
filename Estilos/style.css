@@ -16,7 +16,7 @@ body{
     margin-left: 95%;
     margin-top: 520px;
     z-index: 30;
-    color: #590D1A;
+    color: #7B6578;
 }
 
 /* HTML INICIO */
@@ -24,7 +24,7 @@ body{
 .container{
     width: 100%;
     display: flex;
-    background-color: #A1CDA8;
+    background-color: #B7CDBB;
     justify-content: space-between;
     align-items: center;
     height: 85px;
@@ -114,7 +114,7 @@ body{
     border: none;
     border-radius: 50px;
     padding: 10px 25px;
-    background: #BFB0BC;
+    background: #AAC5BF;
     border: 2px solid #5A4956;
     cursor: pointer;
 }
@@ -133,14 +133,14 @@ body{
 
 .amigurumi{
     width: 100%;
-    min-height: 900px;
+    min-height: 750px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 30px;
-    background-color: #C5E7E2;
+    gap: 1px;
+    background-color: #F8D4B4;
     position: relative;
     height: 5vh;
 }
@@ -153,7 +153,7 @@ body{
     height: 0;
     border-style: solid;
     border-width: 100px 191px 0 191px;
-    border-color: #C5E7E2 transparent transparent transparent;
+    border-color: #F8D4B4 transparent transparent transparent;
     left: 50%;
     transform: translateX(-50%) translateY(100%);
   }
@@ -167,20 +167,30 @@ body{
     gap: 20px;
 }
 
-.amigurumi-cont2{
-    width: 90%;
+.amig-div{
+    width: 100%;
+    height: 500px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 10px;
+    gap: 10px;  
 }
 
-/* .cont2-img{
-    width: 250px;
-    height: 290px;
-    filter: drop-shadow(-25px 10px 10px #A5907E);
-} */
+.amig-img{
+    width: 450px;
+    height: 300px;
+    background-size: cover;
+    border-radius: 60px;
+    filter: drop-shadow(-25px 25px 20px #8d6947);
+}
+
+.img1{
+    background-image: linear-gradient(120deg, #e0ec7454 0%, #9dd4f03f 50%), url(../IMÁGENES/11.jpg);
+}
+
+.img2{
+    background-image: linear-gradient(120deg, #e0ec7454 0%, #9dd4f03f 50%), url(../IMÁGENES/22.jpg);
+}
 
 /* SECCION PRODUCTOS */
 
@@ -213,7 +223,7 @@ body{
     align-items: center;
     text-align: center;
     gap: 10px;
-    background-color: rgba(202, 150, 125, .20);  
+    background-color: rgba(159, 248, 249, .20);  
     backdrop-filter: blur(2px);
     border-radius: 60px;
 }
@@ -233,16 +243,12 @@ body{
     background: #BFB0BC;
 }
 
-/* .catalogo h2{
-    font-size: 30px;
-} */
-
 /* FOOTER */
 
 .pie{
     width: 100%;
     height: 300px;
-    background-color:  #A1CDA8;
+    background-color: #B7CDBB;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -278,11 +284,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     gap: 80px;
-    background-color: #C5E7E2;
-}
-
-.amig-img{
-    filter: drop-shadow(-25px 10px 10px #A5907E);
+    background-color: #F8D4B4;
 }
 
 /* HTML CATALOGO */
