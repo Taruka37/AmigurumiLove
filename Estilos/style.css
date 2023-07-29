@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -32,6 +34,7 @@ body{
 }
 
 .logo{
+    font-family: 'Meylinda', sans-serif;
     margin-right: auto;
     font-size: 15px;
     font-weight: 400;
