@@ -29,6 +29,8 @@ body{
     background-color: #B7CDBB;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap:
+    gap: 20px
     height: 85px;
     padding: 5px 10%;
 }
